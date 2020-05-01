@@ -1,0 +1,10 @@
+<template>
+    <lightning-card if:true={studentId} title={name} class="slds-m-bottom_medium" >
+        <lightning-button label="Go To Record" slot="actions" onclick={onGoToRecord}></lightning-button>
+        <div class="slds-p-horizontal_small"></div>
+            <p><lightning-formatted-email value={email}></lightning-formatted-email></p>
+            <p><lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
+            <p><lightning-formatted-text value={description}></lightning-formatted-text></p>
+        </div>
+    </lightning-card>
+</template>

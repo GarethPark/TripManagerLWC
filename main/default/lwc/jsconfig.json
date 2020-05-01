@@ -1,0 +1,83 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/studentBrowser": [
+                "studentBrowser/studentBrowser.js"
+            ],
+            "c/studentBrowserForm": [
+                "studentBrowserForm/studentBrowserForm.js"
+            ],
+            "c/studentTile": [
+                "studentTile/studentTile.js"
+            ],
+            "c/studentTiles": [
+                "studentTiles/studentTiles.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/studentDetail": [
+                "studentDetail/studentDetail.js"
+            ],
+            "c/challenge_recentDeliveries": [
+                "challenge_recentDeliveries/challenge_recentDeliveries.js"
+            ],
+            "c/deliveryListMap": [
+                "deliveryListMap/deliveryListMap.js"
+            ],
+            "c/deliveryDetailMap": [
+                "deliveryDetailMap/deliveryDetailMap.js"
+            ],
+            "c/layoutManager": [
+                "layoutManager/layoutManager.js"
+            ],
+            "c/courseAttendee": [
+                "courseAttendee/courseAttendee.js"
+            ],
+            "c/awNavigation": [
+                "awNavigation/awNavigation.js"
+            ],
+            "c/certifiedStudentList": [
+                "certifiedStudentList/certifiedStudentList.js"
+            ],
+            "c/responsiveDatatable": [
+                "responsiveDatatable/responsiveDatatable.js"
+            ],
+            "c/utils": [
+                "utils/utils.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
+            ],
+            "c/certPopularity": [
+                "certPopularity/certPopularity.js"
+            ],
+            "c/challenge_lineChart": [
+                "challenge_lineChart/challenge_lineChart.js"
+            ],
+            "c/tripReportForm": [
+                "tripReportForm/tripReportForm.js"
+            ],
+            "c/tripReportFormAdvanced": [
+                "tripReportFormAdvanced/tripReportFormAdvanced.js"
+            ],
+            "c/tripReports": [
+                "tripReports/tripReports.js"
+            ],
+            "c/tripReportBrowser": [
+                "tripReportBrowser/tripReportBrowser.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
